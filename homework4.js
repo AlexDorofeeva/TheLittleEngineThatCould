@@ -1,1 +1,2 @@
-// my homework here
+write "hello"
+console.log("Hello");
