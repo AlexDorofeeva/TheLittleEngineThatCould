@@ -16,7 +16,7 @@ Team leader:
 Clone the Repository (First Time)
 1️⃣Team members run this in the VS Code terminal:
 
-                git clone https://github.com/AlexDorofeeva/thelittleenginethatcould.git
+                git clone https://github.com/AlexDorofeeva/TheLittleEngineThatCould.git
    
                 cd "js homework team"
 
