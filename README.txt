@@ -11,25 +11,35 @@ Team leader:
 ✅ Merge them into main
 ✅ Push the final version
 
-#steps
-for Team members:
+🔄steps for Team members:
 
 Clone the Repository (First Time)
-Students run this in the VS Code terminal:
+1️⃣Team members run this in the VS Code terminal:
 
-   ```
-   git clone <repository-url>
-   ```
-cd <repository-folder>
-2️⃣ Create a Personal Branch
-Each student creates a branch with their name:
+                git clone <repository-url>
+   
+                cd <repository-folder>
 
-git checkout -b student-name
+
+
+2️⃣ Create a Team member Branch
+Each Team member creates a branch with their name:
+
+                git checkout -b Team member-name
+
+🔹example: git checkout -b Alex
+
 3️⃣ Solve the Homework
-Students edit the JavaScript file(s) to add their solutions.
+Team members edit the JavaScript file(s) to add their solutions.
 
 4️⃣ Commit & Push Their Work
-git add .
-git commit -m "Added solution by student-name"
-git push origin student-name
-That’s it! Their branch is now in GitHub, but they don’t have to open GitHub at all.
+
+                git add .
+
+                git commit -m "Added solution by Team member-name"
+🔹example: git commit -m "Added solution by Alex"
+
+                git push origin Team member-name
+🔹example: git push origin Alex
+
+✅That’s it! Their branch is now in GitHub, but they don’t have to open GitHub at all.
