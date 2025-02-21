@@ -9,8 +9,10 @@
 // Name: Alex
 
 
+// 2
 
-
+let arr  = [4, 81, 3, -12, 99, 14];
+console.log(Math.min(...arr));
 
 
 
