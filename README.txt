@@ -18,7 +18,7 @@ Clone the Repository (First Time)
 
                 git clone https://github.com/AlexDorofeeva/thelittleenginethatcould.git
    
-                cd js homework team
+                cd homework 4
 
 
 
