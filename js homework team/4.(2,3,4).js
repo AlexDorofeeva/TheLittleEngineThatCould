@@ -18,14 +18,21 @@ console.log(Math.min(...arr));
 console.log(Math.max(...arr));
 
 
+// Name: Alina
 
+2.//
+const numbers = [4, 81, 3, -12, 99, 14];
+const minNumber = Math.min(...numbers);
+console.log(minNumber);
 
+3.//
 
+const numbers = [4, 81, 3, -12, 99, 14];
+const maxNumber = Math.max(...numbers);
+console.log(maxNumber); 
 
+4.//
 
-
-
-
-
-// ====================================================================================================================================================
-// Name: 
+const nestedArray = [[1, 2], [3, 4, 5], [6, 7, 8]];
+const sum = nestedArray.flat().reduce((acc, num) => acc + num, 0);
+console.log(sum);
