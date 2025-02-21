@@ -42,5 +42,6 @@ Team members edit the JavaScript file(s) to add their solutions.
 
                 git push origin Team member-name
 🔹example: git push origin Alex
+🔹or:      git push origin Alex --force
 
 ✅That’s it! Their branch is now in GitHub, but they don’t have to open GitHub at all.
