@@ -16,7 +16,7 @@ Team leader:
 Clone the Repository (First Time)
 1️⃣Team members run this in the VS Code terminal:
 
-                git clone <repository-url>
+                git clone https://github.com/AlexDorofeeva/thelittleenginethatcould.git
    
                 cd <repository-folder>
 
