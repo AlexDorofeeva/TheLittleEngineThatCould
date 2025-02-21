@@ -21,7 +21,6 @@ Clone the Repository (First Time)
                 cd js homework team
 
 
-
 2️⃣ Create a Team member Branch
 Each Team member creates a branch with their name:
 
