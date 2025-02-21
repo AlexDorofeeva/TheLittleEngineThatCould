@@ -18,7 +18,7 @@ Clone the Repository (First Time)
 
                 git clone https://github.com/AlexDorofeeva/thelittleenginethatcould.git
    
-                cd js homework team
+                cd "js homework team"
 
 
 2️⃣ Create a Team member Branch
