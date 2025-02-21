@@ -1,2 +1,0 @@
-# thelittleenginethatcould
-Our working repository
