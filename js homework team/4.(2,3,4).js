@@ -17,16 +17,7 @@ console.log(Math.min(...arr));
 
 console.log(Math.max(...arr));
 
-// 4
-let a = [[1, 2], [3, 4, 5], [6, 7, 8]] ;
-let sum = 0;
-a.forEach(x => {
-    sum += x;
-});
-console.log(sum);
-
-
-
+// ====================================================================================================================================================
 // Name: Alina
 
 2.//
@@ -42,15 +33,6 @@ console.log(maxNumber);
 
 4.//
 
-<<<<<<< HEAD:js homework team/homework 4/4_234.js
-
-
-
-
-// ====================================================================================================================================================
-// Name: 
-=======
 const nestedArray = [[1, 2], [3, 4, 5], [6, 7, 8]];
 const sum = nestedArray.flat().reduce((acc, num) => acc + num, 0);
 console.log(sum);
->>>>>>> Alina:js homework team/4.(2,3,4).js
