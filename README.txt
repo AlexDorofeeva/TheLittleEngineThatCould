@@ -28,6 +28,7 @@ Each Team member creates a branch with their name:
                 git checkout -b Team member-name
 
 🔹example: git checkout -b Alex
+🙏🙏🙏send me name you choose for your brance‼️
 
 3️⃣ Solve the Homework
 Team members edit the JavaScript file(s) to add their solutions.
