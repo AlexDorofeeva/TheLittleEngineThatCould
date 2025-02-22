@@ -33,4 +33,9 @@ for (let position = 0, days = 1; ; days++) {
     } 
 
     position -= slidePerNight; // Улитка сползает вниз ночью
+
+    
 }
+
+
+
