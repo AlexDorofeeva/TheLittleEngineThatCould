@@ -45,3 +45,49 @@ console.log(maxNumber);
 const nestedArray = [[1, 2], [3, 4, 5], [6, 7, 8]];
 const sum = nestedArray.flat().reduce((acc, num) => acc + num, 0);
 console.log(sum);
+
+// ====================================================================================================================================================
+
+// Name: Slava
+
+// 2 Найти самое маленькое число из массива
+const arr = [4, 81, 3, -12, 99, 14];
+
+let min = Infinity;
+
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] < min) {
+        min = arr[i];
+    }
+}
+
+console.log('min =', min);
+
+// 3 Найти самое большое число из массива
+const arr = [4, 81, 3, -12, 99, 14];
+
+let max = -Infinity;
+
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > max) {
+        max = arr[i];
+    }
+}
+
+console.log('min =', max);
+
+// 4 Найти сумму всех элементов массива
+const arr = [[1, 2], [3, 4, 5], [6, 7, 8]];
+
+let sum = 0;
+
+for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr[i].length; j++) {
+        sum += arr[i][j];
+    }
+}
+
+console.log(sum);
+
+// ====================================================================================================================================================
+// Name: 

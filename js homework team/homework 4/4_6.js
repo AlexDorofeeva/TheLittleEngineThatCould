@@ -37,5 +37,26 @@ for (let position = 0, days = 1; ; days++) {
     
 }
 
+// ====================================================================================================================================================
+// Name: Slava
 
+let wallHeight = 5;
+let dayUpDistance = 3;
+let nightDownDistance =2;
+let days = 0;
+let distance = 0;
+
+for (let i = 0; i < wallHeight; i++) {
+    days++;
+    distance += dayUpDistance;
+    if (distance < wallHeight) {
+        distance -= nightDownDistance;
+    } else {
+        console.log(days);
+        break;
+    }
+}
+
+// ====================================================================================================================================================
+// Name: 
 
