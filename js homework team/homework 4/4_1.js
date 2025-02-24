@@ -11,8 +11,44 @@
 
 
 // ====================================================================================================================================================
-// Name: Alex
+// Name: Pavel Sht
+let arr = [ '(', ')', '(', ')', ')']
+// let arr = ['(', ')', '(', ')', '{', '(', '}', ')', 2, 'a']
+// let arr = ['(', ')', '(', '(', '(', ')', '}', '(', ')', ')']
 
+let parenthesesCounter = 0;
+let bracketsCounter = 0;
+let braceCounter = 0;
+
+for (let i=0; i < arr.length; i++){
+  switch(arr.length[i]){
+    case '(':
+      parenthesesCounter++;
+      break;
+    case ')':
+      parenthesesCounter--;
+      break;
+    case '[':
+      bracketsCounter++;
+      break;
+    case ']':
+      bracketsCounter--;
+      break;
+    case '{':
+      braceCounter++;
+      break;
+    case '}':
+      braceCounter--;
+      break;
+  }
+}
+
+
+if (parenthesesCounter === braceCounter === bracketsCounter === 0){
+  console.log('У каждой скобки есть закрывающая пара')
+}else{
+  console.log('Не у всех скобок есть закрывающие пары')
+}
 
 
 
@@ -29,26 +65,26 @@
 
 // const arr = [ '(', ')', '(', ')', ')'];
 // const arr = ['(', ')', '(', ')', '{', '(', '}', ')', 2, 'a'];
-const arr = ['(', ')', '(', '(', '(', ')', '}', '(', ')', ')'];
+// const arr = ['(', ')', '(', '(', '(', ')', '}', '(', ')', ')'];
 
-let count1 = 0;
-let count2 = 0;
+// let count1 = 0;
+// let count2 = 0;
 
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] === '(') count1++;
-  if (arr[i] === ')') count1--;
-  if (arr[i] === '{') count2++;
-  if (arr[i] === '}') count2--;  
-}
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] === '(') count1++;
+//   if (arr[i] === ')') count1--;
+//   if (arr[i] === '{') count2++;
+//   if (arr[i] === '}') count2--;  
+// }
 
-if (count1 === 0 && count2 === 0) {
-  console.log('у каждой скобки есть соответствующая пара');
-}
+// if (count1 === 0 && count2 === 0) {
+//   console.log('у каждой скобки есть соответствующая пара');
+// }
 
-if (count1 != 0) {
-  console.log('у круглой скобки нет соответствующей пары');
-}
+// if (count1 != 0) {
+//   console.log('у круглой скобки нет соответствующей пары');
+// }
 
-if (count1 != 0) {
-  console.log('у фигурной скобки нет соответствующей пары');
-}
+// if (count1 != 0) {
+//   console.log('у фигурной скобки нет соответствующей пары');
+// }
