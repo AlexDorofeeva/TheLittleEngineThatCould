@@ -4,6 +4,21 @@
 
 // 4.	Найти сумму всех элементов массива [[1, 2], [3, 4, 5], [6, 7, 8]]
 
+// 2
+
+let arr = [4, 81, 3, -12, 99, 14];
+console.log(`Самое маленькое число в массиве: ${Math.min(...arr)}`)
+console.log(`Самое большое число в массиве: ${Math.max(...arr)}`)
+
+let arr2 = [[1, 2], [3, 4, 5], [6, 7, 8]]
+
+// вариант 1
+console.log(arr2.flat().reduce(function(sum, elem){
+    return sum + elem;
+}, 0));
+
+// вариант 2 - со стрелочной функцией
+console.log(arr2.flat().reduce( (sum, elem) => sum + elem));
 
 // ====================================================================================================================================================
 // Name: Alex
@@ -11,83 +26,83 @@
 
 // 2
 
-let arr  = [4, 81, 3, -12, 99, 14];
-console.log(Math.min(...arr));
-// 3
+// let arr  = [4, 81, 3, -12, 99, 14];
+// console.log(Math.min(...arr));
+// // 3
 
-console.log(Math.max(...arr));
+// console.log(Math.max(...arr));
 
-// 4
-let a = [[1, 2], [3, 4, 5], [6, 7, 8]] ;
-let sum = 0;
-a.forEach(x => {
-    sum += x;
-});
-console.log(sum);
+// // 4
+// let a = [[1, 2], [3, 4, 5], [6, 7, 8]] ;
+// let sum = 0;
+// a.forEach(x => {
+//     sum += x;
+// });
+// console.log(sum);
 
-// ====================================================================================================================================================
+// // ====================================================================================================================================================
 
-// Name: Alina
+// // Name: Alina
 
-2.//
-const numbers = [4, 81, 3, -12, 99, 14];
-const minNumber = Math.min(...numbers);
-console.log(minNumber);
+// 2.//
+// const numbers = [4, 81, 3, -12, 99, 14];
+// const minNumber = Math.min(...numbers);
+// console.log(minNumber);
 
-3.//
+// 3.//
 
-const numbers = [4, 81, 3, -12, 99, 14];
-const maxNumber = Math.max(...numbers);
-console.log(maxNumber); 
+// const numbers = [4, 81, 3, -12, 99, 14];
+// const maxNumber = Math.max(...numbers);
+// console.log(maxNumber); 
 
-4.//
+// 4.//
 
-const nestedArray = [[1, 2], [3, 4, 5], [6, 7, 8]];
-const sum = nestedArray.flat().reduce((acc, num) => acc + num, 0);
-console.log(sum);
+// const nestedArray = [[1, 2], [3, 4, 5], [6, 7, 8]];
+// const sum = nestedArray.flat().reduce((acc, num) => acc + num, 0);
+// console.log(sum);
 
-// ====================================================================================================================================================
+// // ====================================================================================================================================================
 
-// Name: Slava
+// // Name: Slava
 
-// 2 Найти самое маленькое число из массива
-const arr = [4, 81, 3, -12, 99, 14];
+// // 2 Найти самое маленькое число из массива
+// const arr = [4, 81, 3, -12, 99, 14];
 
-let min = Infinity;
+// let min = Infinity;
 
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] < min) {
-        min = arr[i];
-    }
-}
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < min) {
+//         min = arr[i];
+//     }
+// }
 
-console.log('min =', min);
+// console.log('min =', min);
 
-// 3 Найти самое большое число из массива
-const arr = [4, 81, 3, -12, 99, 14];
+// // 3 Найти самое большое число из массива
+// const arr = [4, 81, 3, -12, 99, 14];
 
-let max = -Infinity;
+// let max = -Infinity;
 
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] > max) {
-        max = arr[i];
-    }
-}
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > max) {
+//         max = arr[i];
+//     }
+// }
 
-console.log('min =', max);
+// console.log('min =', max);
 
-// 4 Найти сумму всех элементов массива
-const arr = [[1, 2], [3, 4, 5], [6, 7, 8]];
+// // 4 Найти сумму всех элементов массива
+// const arr = [[1, 2], [3, 4, 5], [6, 7, 8]];
 
-let sum = 0;
+// let sum = 0;
 
-for (let i = 0; i < arr.length; i++) {
-    for (let j = 0; j < arr[i].length; j++) {
-        sum += arr[i][j];
-    }
-}
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr[i].length; j++) {
+//         sum += arr[i][j];
+//     }
+// }
 
-console.log(sum);
+// console.log(sum);
 
-// ====================================================================================================================================================
-// Name: 
+// // ====================================================================================================================================================
+// // Name: 
