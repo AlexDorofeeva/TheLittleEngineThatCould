@@ -36,8 +36,8 @@ Team members edit the JavaScript file(s) to add their solutions.
 
                 git add .
 
-                git commit -m "Added solution by Team member-name"
-🔹example: git commit -m "Added solution by Alex"
+             git commit -m "Added solution by Alex"   git commit -m "Added solution by Team member-name"
+🔹example: 
 
                 git push origin Team member-name
 🔹example: git push origin Alex
