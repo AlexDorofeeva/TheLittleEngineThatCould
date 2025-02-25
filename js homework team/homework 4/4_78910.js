@@ -150,6 +150,37 @@ console.log(triangle);
 
 
 
+// let str = "*"
+// for (let i = 1; i < 18 ; i+=2) {
+//     console.log(str.padEnd(i, " *"));
+//     // console.log(13312);
+    
+// }
+
+
+// let str = ""
+// for (let i = 9; i >= 0; i--) {
+//     // console.log(str);
+//     for (let j = 0; j <= i; j++) {
+        
+//         str+=" "+ j
+        
+//     }
+//     str+="\n"
+
+// let str = ""
+// for (let i = 9; i > 0; i--) {
+//     let strN = ""
+//     for (let j = 1; j <= i; j++) {
+//         strN += j 
+//     }
+//     str= strN.padStart(9, "$")
+//     console.log(str);
+// }
+
+
+
+
 
 
 // ====================================================================================================================================================
