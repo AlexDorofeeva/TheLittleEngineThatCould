@@ -24,8 +24,7 @@ Clone the Repository (First Time)
                 cd "js homework team" ‼️ do your changes in folder homework5
 
 
-2️⃣ Create a Team member Branch
-Each Team member work on main branch:
+2️⃣ Each Team member work on main branch:
 
                 git checkout main
 
