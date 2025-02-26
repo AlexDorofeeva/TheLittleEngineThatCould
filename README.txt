@@ -39,7 +39,6 @@ Add your JavaScript file to the homework5 folder.
 ‼️ Resolve any merge conflicts if necessary, do not use automatically resolve conflict!
 
 
-‼️ if something doesn't work, let me know!!!
 
 
 3️⃣ Push the Final Merged Code to main
@@ -51,3 +50,6 @@ Add your JavaScript file to the homework5 folder.
 ✅ Avoid Merge Conflicts: Don’t push directly to main!
 
 Now, all 10 members can work without conflicts.
+
+
+‼️ if something doesn't work, let me know!!!
