@@ -33,10 +33,14 @@ Add your JavaScript file to the homework5 folder.
            git pull origin main
 2️⃣ Merge your  Branch 
 
-git merge team-member-name
+           git merge team-member-name
 🔹 Example: git merge Alex
 
 ‼️ Resolve any merge conflicts if necessary, do not use automatically resolve conflict!
+
+
+‼️ if something doesn't work, let me know!!!
+
 
 3️⃣ Push the Final Merged Code to main
 
