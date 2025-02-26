@@ -16,31 +16,36 @@ Team leader:
 Clone the Repository (First Time)
 1️⃣Team members run this in the VS Code terminal:
 
-                git clone https://github.com/AlexDorofeeva/TheLittleEngineThatCould.git
+                git clone https://github.com/AlexDorofeeva/TheLittleEngineThatCould.git 
+
+‼️ if you cloned it, just pull the updates:  git pull 
+                 
    
-                cd "js homework team"
+                cd "js homework team" ‼️ do your changes in folder homework5
 
 
 2️⃣ Create a Team member Branch
-Each Team member creates a branch with their name:
+Each Team member work on main branch:
 
-                git checkout -b Team member-name
+                git checkout main
 
-🔹example: git checkout -b Alex
-🙏🙏🙏send me name you choose for your branch‼️
+                git checkout ‼️ can check what branch you on
+
 
 3️⃣ Solve the Homework
-Team members edit the JavaScript file(s) to add their solutions.
+Team members add the JavaScript file(s) to the homework5 folder.
+🔹example: alex.js
 
 4️⃣ Commit & Push Their Work
 
                 git add .
 
                 git commit -m "Added solution by Team member-name"
+
 🔹example: git commit -m "Added solution by Alex"
 
-                git push origin Team member-name
-🔹example: git push origin Alex
-🔹or:      git push origin Alex --force
+                git push origin main    
+           or:  git push
+
 
 ✅That’s it! Their branch is now in GitHub, but they don’t have to open GitHub at all.
