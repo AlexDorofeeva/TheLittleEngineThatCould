@@ -23,44 +23,24 @@
 //                   0
 
 
-// for (let i = 9; i > 0; i--) {
-//     let str = ''
-//     for (let j = 9; j > 0; j--) {
-//         if (j > i) {
-//             str += "  "
-//         } else {
-//             str += j + " "
-//         }
-//     }
-//     console.log(str)
-// }
-// // Правая часть
-// for (let i = 0; i <= 10; i++) {
-//     let str1 = ''
-//     for (let j = 0; j <= 9 - i; j++) {
-//         str1 += j + " "
 
-//     }
-//     console.log(str1)
-// }
+let str = "";
 
-// let str = "";
+for (let i = 9; i >= 0; i--) {
+  for (let j = 9; j > 0; j--) {
+    if (j > i) {
+      str += "  ";
+    } else {
+      str += j + " ";
+    }
+  }
+  for (let k = 0; k <= i; k++) {
+    str += k + " ";
+  }
+  str += "\n";
+}
 
-// for (let i = 9; i >= 0; i--) {
-//   for (let j = 9; j > 0; j--) {
-//     if (j > i) {
-//       str += "  ";
-//     } else {
-//       str += j + " ";
-//     }
-//   }
-//   for (let k = 0; k <= i; k++) {
-//     str += k + " ";
-//   }
-//   str += "\n";
-// }
-
-// console.log(str);
+console.log(str);
 
 
 
