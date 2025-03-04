@@ -7,6 +7,9 @@
 //  ***
 //   *
 
+let rhombSize = 5;
+// for  
+
 
 // 8.	Нарисуйте прямоугольный треугольник
 
@@ -60,90 +63,90 @@
 
 
 
-// ====================================================================================================================================================
-// Name: Slava
+// // ====================================================================================================================================================
+// // Name: Slava
 
-// 7.	Нарисуйте ромб (подсказка: вложенные циклы)
-let rhomb = '';
-let height = 5;
-let middle = Math.floor(height /2);
+// // 7.	Нарисуйте ромб (подсказка: вложенные циклы)
+// let rhomb = '';
+// let height = 5;
+// let middle = Math.floor(height /2);
 
-for (let i = 0; i <= middle; i++) {
-  let line ='';
+// for (let i = 0; i <= middle; i++) {
+//   let line ='';
 
-  for (let j = 0; j < middle - i; j++) {
-    line += ' ';
-  }
+//   for (let j = 0; j < middle - i; j++) {
+//     line += ' ';
+//   }
 
-  for (let j = 0; j < 2 * i + 1; j++) {
-    line += '*';
-  }
+//   for (let j = 0; j < 2 * i + 1; j++) {
+//     line += '*';
+//   }
 
-  rhomb += line + '\n';
-}
+//   rhomb += line + '\n';
+// }
 
-for (let i = middle - 1; i >= 0; i--) {
-  let line = '';
+// for (let i = middle - 1; i >= 0; i--) {
+//   let line = '';
 
-  for (let j = 0; j < middle - i; j++) {
-    line += ' ';
-  }
+//   for (let j = 0; j < middle - i; j++) {
+//     line += ' ';
+//   }
 
-  for (let j = 0; j < 2 * i + 1; j++) {
-    line += '*';
-  }
+//   for (let j = 0; j < 2 * i + 1; j++) {
+//     line += '*';
+//   }
 
-  rhomb += line + '\n';
-}
+//   rhomb += line + '\n';
+// }
 
-console.log(rhomb);
-
-
-
-// 8.	Нарисуйте прямоугольный треугольник
-let triangle = '';
-
-for (let i = 1; i <= 5; i++) {
-  line = '*'
-  for (let j = 2; j < 2 * i + 1; j++) {
-    triangle += line + ' ';
-  }
-  triangle += '\n';
-}
-console.log(triangle);
-
-// 9.	Нарисуйте треугольник с цифрами - лево
-let triangle = '';
-
-for (let i = 0; i < 10; i++) {
-  let line = '';
-  for (let j = 0; j < 10 - i; j++) {
-    line += j + ' ';
-  }
-
-  triangle += line.trim() + '\n';
-}
-console.log(triangle);
-
-// 10.	Нарисуйте треугольник с цифрами - право
-let triangle = '';
-let space = '';
-
-for (let i = 0; i < 10; i++) {
-  let line = '';
-  for (let j = 0; j < 10 - i; j++) {
-    line += j + ' ';
-  }
-
-  triangle += space + line.trim() + '\n';
-
-  space += '  ';
-
-}
-
-console.log(triangle);
+// console.log(rhomb);
 
 
 
-// ====================================================================================================================================================
-// Name: 
+// // 8.	Нарисуйте прямоугольный треугольник
+// let triangle = '';
+
+// for (let i = 1; i <= 5; i++) {
+//   line = '*'
+//   for (let j = 2; j < 2 * i + 1; j++) {
+//     triangle += line + ' ';
+//   }
+//   triangle += '\n';
+// }
+// console.log(triangle);
+
+// // 9.	Нарисуйте треугольник с цифрами - лево
+// let triangle = '';
+
+// for (let i = 0; i < 10; i++) {
+//   let line = '';
+//   for (let j = 0; j < 10 - i; j++) {
+//     line += j + ' ';
+//   }
+
+//   triangle += line.trim() + '\n';
+// }
+// console.log(triangle);
+
+// // 10.	Нарисуйте треугольник с цифрами - право
+// let triangle = '';
+// let space = '';
+
+// for (let i = 0; i < 10; i++) {
+//   let line = '';
+//   for (let j = 0; j < 10 - i; j++) {
+//     line += j + ' ';
+//   }
+
+//   triangle += space + line.trim() + '\n';
+
+//   space += '  ';
+
+// }
+
+// console.log(triangle);
+
+
+
+// // ====================================================================================================================================================
+// // Name: 
