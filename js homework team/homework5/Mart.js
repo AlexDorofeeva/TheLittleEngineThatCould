@@ -170,7 +170,6 @@
   //       lustNum++
   //       str += lustNum
   //     }
-  //     // console.log(str);
   //      str2+=str+'\n'
   //   }
 
@@ -186,22 +185,72 @@
   3 8  12 
   4 9  13 16 
   5 10 14 17 19
-  6 11 15 18 20 21
+  6 *5* 11 15 18 20 21
   */
 
+// мое неправильно
+  let hieght = 6;
+  let str = '';
+  for (let i = 1; i <= hieght /*height */; i++) {
+  let startNum = i;// номер текущая строка
+   str=startNum // номер текущая строка
+    for (let j = 1; j < i; j++) {
+      startNum= Number(startNum +hieght-j)// hieght-1  4 3 2 1
+      str+= String(startNum)
+    }
+    console.log(str);
+  }
 
-  // let hieght = 6;
-  // let str = '';
-  // for (let i = 1; i <= hieght /*height */; i++) {
-  // let startNum = i;// номер текущая строка
-  //  str=startNum // номер текущая строка
-  //   for (let j = 1; j < i; j++) {
-  //     startNum= Number(startNum +hieght-j)// hieght-1  4 3 2 1
-  //     str+= String(startNum)
-  //   }
-  //   console.log(str);
-  // }
 
+// что то получше
+
+let str = "";
+let count = 0;
+let height = 10;
+for (let i = 1; i <= height; i++) {
+    count = i ;
+  for (let j = 1; j <= i; j++) {
+      str += count + " ";
+      count += height - j ;
+  }
+
+  str += "\n";
+}
+console.log(str);
+
+//danil
+let str = "";
+let counter = 1;
+let counterDif = 4;
+for (let i = 1; i <= 5; i++) {
+    counter = i;
+    for (let j = 1; j <= i; j++) {
+        str += counter;
+        counter += counterDif;
+        counterDif--;
+    }
+    console.log(str);
+    counterDif = 4;
+    str = "";
+}
+  // решение бориса
+  const rows = 5;
+  let result = "1 
+  2 6
+  3 7 10";
+  let step = 
+  for (let row = 4; row <= rows; row++) {
+      let number = row;//4 
+      for (let col = 1; col <= row /*4*/; col++) {
+          result = result/*4*/ + number/*4*/ + " ";
+          number = number/*4*/ + rows/*5*/ - col/*1 */;
+      }
+      result += "\n";
+  }
+  
+  
+  console.log(result);
+  
   // let str = '';
   // for (let i = 1; i <= 6 /*height */; i++) {
   // // let startNum = i;// номер текущая строка
